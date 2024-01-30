@@ -1,4 +1,24 @@
-# created by virtualenv automatically
-code.rar
-/lib 
-/bin
+# Virtual environment
+venv/
+
+# Dependency directories
+node_modules/
+__pycache__/
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Compiled bytecode
+__pycache__/
+
+# Personal IDE files
+.idea/
+.vscode/
+
+# Ignore the Django secret key file
+medicalAnalysis/secret_key.py
+# Ignore lib and bin folders
+lib/
+bin/
